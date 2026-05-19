@@ -151,3 +151,13 @@ curl http://localhost:5000/health
 ```
 
 ## Структура проекту
+secure-flask-app/
+├── app/
+│   ├── app.py              ← Flask додаток
+│   └── requirements.txt    ← Python залежності
+├── Dockerfile              ← non-root, slim образ
+├── docker-compose.yml      ← локальний запуск
+├── .github/
+│   └── workflows/
+│       └── security.yml    ← GitHub Actions pipeline
+└── README.md
